@@ -3,7 +3,6 @@ from datetime import datetime, timedelta
 from unittest.mock import Mock
 
 from booking_scheduler import BookingScheduler
-from communication_test import TestableSmsSender, TestableMailSender
 from schedule import Customer, Schedule
 
 MONDAY = "2024/06/03 17:00"
